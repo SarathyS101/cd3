@@ -60,8 +60,7 @@ export default function DisplayNYT() {
                 {article.byline}
               </Typography>
               <Typography variant="body2" sx={{ color: "text.secondary" }}>
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
+                {article.abstract}
               </Typography>
             </CardContent>
             <CardActions>
